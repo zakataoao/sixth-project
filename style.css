@@ -469,7 +469,7 @@
   transition: all ease .5s;
 }
 
-.second__btn::hover {
+.second__btn:hover {
   background-color: #eee2e2;
 }
 
@@ -1218,8 +1218,7 @@
 .sponsors__grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .sponsors__img {
