@@ -53,19 +53,5 @@ prev[1].addEventListener('click', function() {
     }
     sliderLine[1].style.right = offsetSecond + 'px';
 })
-setInterval(function() {
-    offsetFirst += widthFirst;
-    if (offsetFirst > widthFirst*2) {
-        offsetFirst = 0;
-    }
-    sliderLine[0].style.right = offsetFirst + 'px';
-}, 10000);
-setInterval(function() {
-    offsetSecond += widthSecond;
-    if (offsetSecond > widthSecond*2) {
-        offsetSecond = 0;
-    }
-    sliderLine[1].style.right = offsetSecond + 'px';
-}, 10000);
 window.addEventListener('resize', init);
 init();
