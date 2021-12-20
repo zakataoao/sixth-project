@@ -1522,7 +1522,8 @@
     .prop-block__img_slider {
       height: 100%;
       width: 50%;
-      background: no-repeat center/cover url("./img/5.webp");
+      /* background: no-repeat center/cover url("./img/5.webp"); */
+      background: no-repeat center/cover rgb(210, 255, 220)fff;
     }
     .user-block__number {
       font-size: 12px;
