@@ -1,7 +1,7 @@
 # Sixth-project
 ✅ Посмотреть вёрстку - https://zakataoao.github.io/sixth-project/
 ***
-Инструмент которые я использовал:
+Инструменты которые я использовал:
 * HTML
 * CSS
 * JS
